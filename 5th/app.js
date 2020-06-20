@@ -1,4 +1,4 @@
-alert('Please unremark the code one by one to test all the JS Task From Chapter 1 - 20');
+// alert('Please unremark the code one by one to test all the JS Task From Chapter 1 - 20');
 /**
  * Chapter 1
  */
@@ -564,6 +564,25 @@ alert('Please unremark the code one by one to test all the JS Task From Chapter 
 // document.write('Score of ' + studentNames[1] + ' is ' + studentScores[1] + '. Persentage: ' + studentPersentage[1] + '%<br />');
 // document.write('Score of ' + studentNames[2] + ' is ' + studentScores[2] + '. Persentage: ' + studentPersentage[2] + '%');
 //  9
+var colors = ['Red', 'Green', 'Blue'];
+document.write(colors);
+var newColor = prompt('What color you wants to add to the beginning?');
+document.write('<br/>');
+colors.unshift(newColor);
+document.write(colors);
+var newColor = prompt('What color you wants to add at the end?');
+document.write('<br/>');
+colors.push(newColor);
+document.write(colors);
+document.write('<br/>');
+colors.unshift('Brown', 'Purple');
+document.write(colors);
+document.write('<br/>');
+colors.shift();
+document.write(colors);
+document.write('<br/>');
+colors.pop();
+document.write(colors);
 //  10
 //  11
 //  12

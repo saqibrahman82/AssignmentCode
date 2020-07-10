@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <br />
+        <h1><span class="badge badge-secondary">Stop Watch</span></h1>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card text-white">
+                    <div class="card-body bg-secondary text-center">
+                        <p class="card-title mt-2">
+                            <h1><span class="badge">Hrs</span></h1> 
+                            <h1></h1>
+                            <h1><span class="badge">Min</span></h1> 
+                            <h1></h1>
+                            <h1><span class="badge">Sec</span></h1>
+                        </p>
+                        <p class="card-title mt-2">
+                            <h1><span id="hrs" class="badge">0</span></h1> 
+                            <h1>:</h1>
+                            <h1><span id="min" class="badge">0</span></h1> 
+                            <h1>:</h1>
+                            <h1><span id="sec" class="badge">0</span></h1>
+                        </p>
+                        <button type="button" id="startTimer" onclick="onclickStart();" class="btn btn-danger">Start</button>
+                        <button type="button" id="pauseTimer" onclick="onclickPause();" class="btn btn-success" disabled>Pause</button>
+                        <button type="button" id="resetTimer" onclick="onclickReset();" class="btn btn-primary" disabled>Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <br />
+        <br />
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card text-white">
+                    <div class="card-body bg-secondary text-center">
+                        <address>
+                            <p><strong>Roll No:</strong> WM10200</p>
+                            <p><Strong>Name :</Strong> SAQIB RAHMAN</p>
+                            <p><Strong>Email :</Strong> <a
+                                    href="mailto:saqib.rahman82@gmail.com">saqib.rahman82@gmail.com</a></p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

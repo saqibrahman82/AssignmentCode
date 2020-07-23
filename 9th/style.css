@@ -1,0 +1,36 @@
+.boxImg{
+    height: 200px;
+    width: 150px;
+    margin: 0, auto;
+}
+
+figure{
+    float: left;
+    height: 250px;
+    width: 200px;    
+    border: 1px solid #0000cd;
+    margin-left: 10px;
+    display: inline block;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.para{
+    width: 180px;
+    height: 180px;
+    border: 1px solid blue;
+    padding: 5px;
+    overflow: auto;
+}
+
+.studentRec{    
+    border-collapse:collapse;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+
+.studentRec td, th{    
+    border: 1px solid blue;
+}
